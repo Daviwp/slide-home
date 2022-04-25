@@ -1,0 +1,29 @@
+.slick-prev,
+.slick-next {
+    font-size: 40px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 2;
+}
+
+.slick-prev {
+    left: 0;
+}
+.slick-next {
+    right: 0;
+}
+.site-header {
+    margin-bottom: 0 !important;
+}
+.single-item{
+	margin: 20px 0;
+}
